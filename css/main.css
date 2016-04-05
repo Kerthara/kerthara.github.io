@@ -358,7 +358,7 @@
 }
 
 .skill.des .progress {
-  border:1px solid #ffc107;
+  border:1px solid #a2f6f6;
 }
 
 
@@ -367,7 +367,7 @@
 }
 
 .skill.prs .progress {
-	border:1px solid #33373d;
+	border:1px solid #0f9595;
 }
 
 .progress .percentage {
@@ -382,7 +382,7 @@
 }
 
 .skill.des .progress .percentage {
-  background-color: #ffc107;
+  background-color: #a2f6f6;
 }
 
 .skill.dev .progress .percentage {
@@ -390,7 +390,7 @@
 }
 
 .skill.prs .progress .percentage {
-	background-color: #33373d;
+	background-color: #0f9595;
 }
 
 .percentage .percent {
@@ -427,7 +427,7 @@
 
 
 .skill .title.des{
-	border: 1px dashed #efefef;
+	border: 1px dashed #a2f6f6;
 }
 
 .skill .title.dev{
@@ -435,7 +435,7 @@
 }
 
 .skill .title.prs{
-	border: 1px dashed #33373d;
+	border: 1px dashed #0f9595;
 }
 
 
@@ -705,7 +705,7 @@
 
 
 .item a .desc {
-    background: rgba(85, 142, 106, 0.95);
+    background: rgba(20, 200, 200, 0.95);
     height: 100%;
     position: absolute;
     text-align: center;
@@ -722,20 +722,21 @@
 
 
 .item a .desc h3 {
-    color: #ffffff;
-	font-size:13px;
+  color: #ffffff;
+	font-size:14px;
 	bottom: 0;
-    left: 0;
-    margin: auto;
-    position: absolute;
-    right: 0;
-    top: 0;
-    height:55px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height:55px;
 }
 
 .item a .desc h3 span {
-    display:block;
+  display:block;
 	font-size:12px;
+  font-weight: bold;
 	text-transform:none;
 	position:relative;
 	top:-5px;
@@ -786,8 +787,8 @@
 
 
 .block-single h1.large-title{
-	font-size:40px;
-	letter-spacing:20px;
+	font-size:38px;
+	letter-spacing:14px;
 	line-height:50px;
 }
 
@@ -1193,7 +1194,7 @@ span.meta-date{
 
 
 .contact-form .submit:hover, .reply-form .submit:hover {
-    background:#33373d;
+    background: #33373d;
 /* Prevent background color leak outs */
 	 -webkit-background-clip: padding-box;
 	 -moz-background-clip:padding;
